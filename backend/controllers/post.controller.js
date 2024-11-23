@@ -188,7 +188,7 @@ export const getFollowingPosts = async (req, res) => {
         const following = user.following
 
         const feedPosts = await Post.find({ user: { $in: following }})
-        .sort( {createAt: -1}).
+        .sort( {createdAt: -1}).
         populate({
             path: "user",
             select: "-password",
