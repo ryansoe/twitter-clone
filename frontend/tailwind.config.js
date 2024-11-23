@@ -10,7 +10,7 @@ export default {
 
 	daisyui: {
 		themes: [
-			"light",
+			"dark",/*
 			{
 				black: {
 					...daisyUIThemes["black"],
@@ -18,6 +18,7 @@ export default {
 					secondary: "rgb(24, 24, 24)",
 				},
 			},
+			*/
 		],
 	},
 };
